@@ -110,7 +110,7 @@ h5{
 #home {
   background: none;
   justify-content: center;
-  padding: 120px 0px 120px 0px;
+  padding: 96px 0px 96px 0px;
 }
 .sweet {
   box-shadow: 6px 6px 6px hsl(0, 0%, 10%);
@@ -118,7 +118,7 @@ h5{
   padding: 48px;
   max-width: 640px;
   border: double black 12px;
-  border-radius: 50%;
+  border-radius: 3px;
   background-color: hsl(220, 100%, 70%);
   text-align:center;
   margin: 48px auto 72px auto;
