@@ -1,0 +1,378 @@
+/***************************
+  FULL BODY CSS
+/***************************/
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Pacifico');
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  list-style: none;
+}
+#wrapper {
+  margin-left: auto;
+  margin-right: auto;
+}
+#border{ background: white;}
+body {
+  font-family: Comfortaa;
+  background: url(https://svgsilh.com/svg_v2/1300200.svg), white;
+  background-attachment: fixed;
+  background-repeat: repeat;
+  background-size: contain;
+  }
+
+
+/***************************
+  HEADER
+/***************************/
+header {
+  position: fixed;
+  z-index: 1;
+  top: 0px;
+  height: 72px;
+  width: 100%;
+  background-color: hsl(47, 100%, 50%);
+}
+#header-img {
+  margin-top: 6px;
+  width: 60px;
+  height: 60px;
+  margin-left: 60px;
+}
+.site-name {
+  width: 230px;
+  position: absolute;
+  top: 12px;
+  left: 130px;
+  font-family:Pacifico;
+  text-decoration: none;
+  font-size: 1.9rem;
+  color: black;
+}
+.nav-title {
+  position: absolute;
+  top: 36px;
+  margin-left: 65vw;
+  width: 450px;
+  overflow: show;
+}
+.nav-link {
+  padding-left: 20px;
+  font-weight: 600;
+  color: hsl(10, 100%, 30%);
+  text-decoration: none;
+}
+@media screen and (min-width: 801px) {
+  .nav-link:hover,
+  .nav-link:focus {
+    color: hsl(65, 100%, 90%);
+  }
+}
+
+
+/***************************
+  MAIN SECTION 
+/***************************/
+.main_section {
+  position: relative;
+  display: block;
+  justify-content: center;
+  width: 100vw;
+  background: white;  
+}
+#who_we_are h2,
+#our_honey_goods h2,
+#find_our_hive h2 {
+  font-family: Pacifico;
+  font-weight: 300;
+  font-size: 48px;
+  padding-bottom: 48px;
+  padding-top: 48px;
+  text-align: center;
+}
+h5{
+  padding: 0px 24px 0px 24px;
+  font-weight:300;
+}
+#who_we_are p,
+#our_honey_goods p,
+#find_our_hive p{
+  line-height: 24px;
+  padding: 0px 24px 0px 12px;
+  font-size: 1.1em;
+  font-weight: 300;
+}
+
+/***************************
+  HOME
+/***************************/
+
+#home {
+  background: none;
+  justify-content: center;
+  padding: 120px 0px 120px 0px;
+}
+.sweet {
+  box-shadow: 6px 6px 6px hsl(0, 0%, 10%);
+  height: auto;
+  padding: 48px;
+  max-width: 640px;
+  border: double black 12px;
+  border-radius: 50%;
+  background-color: hsl(220, 100%, 70%);
+  text-align:center;
+  margin: 48px auto 72px auto;
+}
+.sweet h2 {
+  color: black;
+  font-family: Pacifico;
+  font-size: 1.7em;
+  font-weight: 500;
+  line-height: ;
+  padding-top: 6px;
+}
+input#email {
+  height: 36px;
+  width: 280px;
+  padding: 10px;
+  margin-top: 25px;
+  margin-bottom: 6px;
+  border-radius: 5px;
+}
+input#submit {
+  height: 52px;
+  width: 52px;
+  font-size: 12px;
+  margin-bottom: 6px;
+  border-radius: 50%;
+  color: white;
+  text-transform: lowercase;
+  font-family: comfortaa;
+  background-color: hsl(10, 70%, 30%);
+  border-color: hsl(10, 70%, 30%);
+  cursor: pointer;
+}
+
+
+/*************************** 
+  WHO WE ARE 
+/***************************/
+#who_we_are{
+  background-color: hsl(0, 0%, 95%);
+  padding: 48px 0px 120px 0px; 
+  }
+.who-we-are-content {
+  position: relative;
+  display: flex;
+  max-width:100%;
+ }  
+#about {
+  max-width:100vw;
+  margin-left: 48px;
+  line-height: 24px;
+}
+#para{
+  max-width: 600px;
+}
+#video{ 
+  margin-top:24px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/***************************
+OUR HONEY GOODS  
+/***************************/
+#our_honey_goods{
+  padding: 48px 0px 120px 0px;
+  }
+.product-box { 
+  width: 192px;
+  padding: 0px;
+  background-color: white;
+}
+.product-container {
+  display: grid;
+  grid-gap: 24px 0px;
+  grid-template-columns: repeat(auto-fit, 192px);
+  justify-content: center;
+  text-align: center;
+}
+.product-img {
+  height: auto;
+  width: 72px;
+  border-bottom: solid 1px;
+  margin-bottom: 12px;
+}
+.select {
+  height: 36px;
+  width: 96px;
+  margin-top: 12px;
+  font-size: 18px;
+  color: hsl(10, 100%, 30%);
+  border: none;
+  border-radius: 5px;
+  background-color: hsl(45, 100%, 60%);
+  font-family: pacifico;
+}
+.select:hover{
+  cursor: pointer;
+  color: hsl(65, 100%, 90%);
+  background-color: gray;
+}
+
+
+/***************************
+FIND OUR HIVE 
+/***************************/
+#find_our_hive {
+  justify-content: center;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background-color:hsl(0, 0%, 95%);
+}
+#media {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#fb {
+  height: 60px;
+  width: 60px;
+  margin: 0px 50px 0px 10%;
+}
+#yt {
+  height: 60px;
+  width: 60px;
+  margin: 0px 5% 0px 10%;
+}
+#ig {
+  height: 60px;
+  width: 60px;
+  margin: 0px 10% 0px 50px;
+}
+
+
+/*************************** 
+  FOOTER  
+/****************************/
+.ft {
+  color: hsl(65, 100%, 90%);
+  font-weight: 600;
+  font-style: normal;
+  text-align: center;
+  height: 24px;
+  width: 100vw;
+  background-color: hsl(47, 100%, 50%);
+}
+
+
+/*************************** 
+MEDIA QUERY AT 900PX
+/***************************/
+@media screen and (max-width: 900px) {
+  #header-img{
+    left: 10px;
+  }
+  .site-name {
+    display: none;
+  }
+  .nav-title{
+    margin-left: 20vw;
+  }
+  .sweet{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 80%;
+    width: 80%;
+    height: 80%;
+  }
+  input#submit{
+      font-size: 9px;
+      }
+  h5, h2, p{
+    font-size: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .product-box{
+    width:150px;
+   }
+ .product-container{
+   grid-gap: 24px 0px;
+   grid-template-columns: repeat(auto-fit, 150px);
+   }
+  #about{
+    flex-direction: column;
+  }
+  #para{
+    margin-left: auto;
+    margin-right: auto;
+  }
+   #video{
+    margin-top: 24px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+  
+
+/***************************
+MEDIA QUERY AT 650PX
+/***************************/  
+  @media only screen and (max-width: 650px){
+    .sweet h2 {  
+      font-size: 18px;
+      }
+     #who_we_are h2, #our_honey_goods h2, #find_our_hive h2 {
+      font-size: 36px;      
+      }
+    .sweet {
+      padding: 12px;
+      border-radius: 6px;
+      border-width: 5px;
+      width: 384px;
+      box-shadow: none;
+      }
+    header{
+      height: 60px;
+    }
+    #header-img {
+      margin-left: 5px;
+      width: 50px; 
+      height: 50px;
+    }
+    .nav-title {
+      margin-left: 12vw;
+      font-size:12px;
+    } 
+    #video{
+      max-width: 350px;   
+      margin-left: 0px;
+      margin-right: auto;
+    }
+    .product-img {
+      width: 48px;
+    }
+    .product-container h3, .select {
+      font-size: 12px;
+    }
+    .product-container{
+      grid-template-columns: repeat(auto-fit, 150px);
+      grid-gap: 24px 12px; 
+    }
+    .product-box {
+      width: 120px;
+    }
+    #fb, #ig, #yt{
+      width: 40px;
+      height: 40px;
+    }
+    .select {
+      height: 24px;
+      width: 72px;
+    }
+  }
+  
