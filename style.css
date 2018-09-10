@@ -17,8 +17,8 @@ body {
   font-family: Comfortaa;
   background: url(https://tinyurl.com/yamczanc), white;
   background-attachment: fixed;
-  background-repeat: repeat;
-  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: cover;
   }
 
 
