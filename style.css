@@ -19,7 +19,9 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   }
-
+#border{
+  background-color: white;
+}
 
 /***************************
   HEADER
